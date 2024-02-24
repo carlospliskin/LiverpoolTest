@@ -30,6 +30,7 @@
 		7A8B53012B89797F0073592A /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 7A8B53002B89797F0073592A /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		7A8B53032B89797F0073592A /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 7A8B53022B89797F0073592A /* FirebaseAppCheck */; };
 		7A8B53052B897BFF0073592A /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8B53042B897BFF0073592A /* Api.swift */; };
+		7A8B53072B89844E0073592A /* PresenterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8B53062B89844E0073592A /* PresenterProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		7A8B52F52B89742F0073592A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../../../Liverpool 2/Liverpool/Scenes/Login/ViewController.swift"; sourceTree = "<group>"; };
 		7A8B52F72B8978C00073592A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7A8B53042B897BFF0073592A /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		7A8B53062B89844E0073592A /* PresenterProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,6 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				7A8B52DE2B895EFC0073592A /* User.swift */,
+				7A8B53062B89844E0073592A /* PresenterProtocols.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 				7A8B52E12B895FB50073592A /* LoginRouter.swift in Sources */,
 				7A8B52A62B8953000073592A /* SceneDelegate.swift in Sources */,
 				7A8B52E32B895FD00073592A /* LoginInteractor.swift in Sources */,
+				7A8B53072B89844E0073592A /* PresenterProtocols.swift in Sources */,
 				7A8B52BF2B89576E0073592A /* ViewModelType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
